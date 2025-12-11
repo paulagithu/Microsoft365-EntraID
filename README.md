@@ -70,7 +70,7 @@ Al iniciar sesión con el usuario de prueba en portal.office.com, aparece el men
 🎯 **Objetivo:** Automatizar tareas simples.  
 🛠️ **Ejemplo de script:**
 ``powershell
-# Crear usuario local de prueba
+## Crear usuario local de prueba
 net user LabUser P@ssw0rd! /add
 
 
@@ -141,3 +141,72 @@ Script: Conjunto de comandos automatizados.
 Template (Plantilla): Configuración estándar reutilizable.
 
 CSI (Continuous Service Improvement / Mejora continua): Optimización de procesos.
+
+# 📖 Knowledge Base Article – Resetear contraseña en Outlook
+
+## 🎯 Objetivo
+Guiar al usuario en el proceso de restablecer su contraseña de Outlook/Microsoft 365 cuando no puede iniciar sesión.
+
+---
+
+## 🛠️ Pasos
+
+1. Ir a la página de inicio de sesión de Outlook: [https://outlook.office.com](https://outlook.office.com).
+2. Ingresar el correo electrónico de la cuenta.
+3. Seleccionar **Forgot my password** (Olvidé mi contraseña).
+4. Elegir el método de verificación (SMS, correo alternativo o Microsoft Authenticator).
+5. Ingresar el código recibido.
+6. Crear una nueva contraseña segura (mínimo 8 caracteres, incluir mayúsculas, minúsculas, números y símbolos).
+7. Confirmar y volver a iniciar sesión.
+
+---
+
+## 📸 Evidencias
+*(Agregar capturas de pantalla del flujo de recuperación, sin mostrar datos sensibles).*
+
+---
+
+## 📚 Notas
+- La contraseña debe ser diferente a las últimas usadas.  
+- Si el usuario no tiene métodos de recuperación configurados, debe contactar al administrador de TI.  
+- Tiempo estimado de resolución: **5 minutos**.  
+
+---
+
+## ✅ Conclusión
+Este procedimiento permite al usuario recuperar acceso a su cuenta de Outlook/M365 de forma segura y rápida, cumpliendo con las políticas de seguridad de la organización.
+
+
+# 📖 Knowledge Base Article – Instalar Microsoft Teams en Windows
+
+## 🎯 Objetivo
+Guiar al usuario en la instalación de Microsoft Teams en un equipo con Windows 10/11.
+
+---
+
+## 🛠️ Pasos
+
+1. Abrir el navegador y acceder a la página oficial: [https://www.microsoft.com/es-co/microsoft-teams/download-app](https://www.microsoft.com/es-co/microsoft-teams/download-app).
+2. Hacer clic en **Descargar para escritorio**.
+3. Guardar el archivo de instalación en la carpeta de Descargas.
+4. Ejecutar el archivo descargado (`Teams_windows_x64.exe`).
+5. Seguir el asistente de instalación hasta finalizar.
+6. Una vez instalado, abrir Teams desde el menú Inicio.
+7. Iniciar sesión con la cuenta corporativa o personal de Microsoft.
+
+---
+
+## 📸 Evidencias
+*(Agregar capturas de pantalla del proceso de descarga, instalación y primer inicio de sesión).*
+
+---
+
+## 📚 Notas
+- Requiere Windows 10 o superior.  
+- Si el usuario ya tiene Teams preinstalado, verificar actualizaciones desde la aplicación.  
+- Tiempo estimado de resolución: **10 minutos**.  
+
+---
+
+## ✅ Conclusión
+Este procedimiento permite instalar Microsoft Teams en Windows de forma rápida y segura, asegurando que el usuario pueda acceder a reuniones y colaboración en línea.
