@@ -16,6 +16,8 @@ Aplicar principios de Zero Trust en Entra ID.
 - Prueba de acceso desde **dispositivo no confiable**.
 
 ### 📸 Evidencias
+<img width="401" height="485" alt="requiere install MA" src="https://github.com/user-attachments/assets/7a73e4ef-66d2-49de-8414-cc866c2f1226" />
+
 <img width="385" height="448" alt="image" src="https://github.com/user-attachments/assets/6410c104-bed6-4e66-8e69-e52349ad264d" />
 
 
