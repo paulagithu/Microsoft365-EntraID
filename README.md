@@ -37,76 +37,107 @@ Al iniciar sesión con el usuario de prueba en portal.office.com, aparece el men
 - Cómo Conditional Access protege accesos.
 - Diferencia entre dispositivos confiables y no confiables.
 
----
 
-## 2️⃣ Lab Entra ID Admin
 
-### 🎯 Objetivo
-Practicar administración básica de identidades en Entra ID.
+## 2️⃣ Administración básica (Entra ID / M365)
 
-### 🛠️ Pasos
-- Asignación de **roles**.
-- Creación y gestión de **usuarios**.
-- Organización en **grupos**.
-- Configuración de **policies simples**.
+🎯 **Objetivo:** Gestionar usuarios y roles.  
+🛠️ **Pasos:**  
+- Crear grupos y asignar usuarios.  
+- Revisar roles y permisos.  
+- Resetear contraseñas.  
 
-### 📸 Evidencias
-*(Agregar capturas aquí)*
-
-### 📚 Aprendizajes
-- Roles vs permisos.
-- Buenas prácticas de grupos.
-- Policies para control básico.
+📸 **Evidencias:** *(capturas de pantalla)*  
+📚 **Aprendizajes:** Diferencia entre roles y grupos, ciclo de vida de usuarios.
 
 ---
 
-## 3️⃣ Lab Microsoft 365 Admin Center
+## 3️⃣ Colaboración y soporte (Microsoft 365)
 
-### 🎯 Objetivo
-Gestionar usuarios y licencias desde el Admin Center.
+🎯 **Objetivo:** Usar apps de productividad y simular soporte.  
+🛠️ **Pasos:**  
+- Acceder a Teams, Outlook y OneDrive.  
+- Simular problemas comunes (login, compartir archivos).  
+- Documentar resolución en un “artículo de conocimiento”.  
 
-### 🛠️ Pasos
-- Administración de **licencias**.
-- Creación y gestión de **usuarios**.
-- **Password reset**.
-- Revisión de **logs básicos**.
-
-### 📸 Evidencias
-*(Agregar capturas aquí)*
-
-### 📚 Aprendizajes
-- Relación entre licencias y servicios.
-- Flujo de soporte para usuarios.
-- Logs como herramienta de diagnóstico.
+📸 **Evidencias:** *(capturas de pantalla)*  
+📚 **Aprendizajes:** Soporte básico de apps, importancia de KBs.
 
 ---
 
-## 4️⃣ Lab Intune – configuración mínima
+## 4️⃣ Automatización (PowerShell)
 
-### 🎯 Objetivo
-Configurar Intune para gestión básica de dispositivos.
+🎯 **Objetivo:** Automatizar tareas simples.  
+🛠️ **Ejemplo de script:**
+``powershell
+# Crear usuario local de prueba
+net user LabUser P@ssw0rd! /add
 
-### 🛠️ Pasos
-- **Enrolar dispositivo**.
-- Crear **política de cumplimiento**.
-- **App deployment básico**.
 
-### 📸 Evidencias
-*(Agregar capturas aquí)*
+🌟 Conclusión
+Estos laboratorios demuestran habilidades prácticas en:
 
-### 📚 Aprendizajes
-- Diferencia entre enrolamiento y compliance.
-- Cómo distribuir apps en Intune.
-- Seguridad mínima en dispositivos.
+Identidad y acceso (MFA, Conditional Access).
 
----
+Administración de usuarios y roles.
 
-## 5️⃣ Mini-script PowerShell
+Soporte de apps Microsoft 365.
 
-### 🎯 Objetivo
-Automatizar tareas básicas con PowerShell.
+Automatización con PowerShell.
 
-### 🛠️ Ejemplo
-```powershell
-# Crear usuario de prueba en Entra ID
-New-AzureADUser -DisplayName "Lab User" -UserPrincipalName "labuser@tenant.onmicrosoft.com" -AccountEnabled $true -PasswordProfile @{Password="P@ssw0rd!"}
+Este portafolio sirve como evidencia para entrevistas en roles de Service Desk / IT Support.
+
+📖 Mini‑Glosario bilingüe (EN/ES)
+Service Desk & Soporte
+Incident (Incidente): Evento que interrumpe un servicio.
+
+Request (Solicitud): Petición de acceso o servicio nuevo.
+
+SLA (Service Level Agreement / Acuerdo de nivel de servicio): Tiempo máximo para resolver.
+
+Knowledge Base (Base de conocimiento): Artículos con soluciones comunes.
+
+Identity & Access
+MFA (Multi‑Factor Authentication / Autenticación multifactor): Verificación con más de un método.
+
+Conditional Access (Acceso condicional): Políticas que controlan acceso según condiciones.
+
+RBAC (Role‑Based Access Control / Control de acceso basado en roles): Permisos según rol.
+
+Least Privilege (Principio de mínimo privilegio): Dar solo los permisos necesarios.
+
+Endpoint Management
+Endpoint (Dispositivo final): PC, laptop, móvil o VM.
+
+Intune / Endpoint Manager: Herramienta para gestionar dispositivos y apps.
+
+Patch Management (Gestión de parches): Actualización de seguridad y software.
+
+Encryption (Cifrado): Protección de datos con BitLocker/FileVault.
+
+Collaboration
+Teams: Comunicación y reuniones.
+
+SharePoint: Gestión de documentos y sitios.
+
+OneDrive: Almacenamiento personal en la nube.
+
+Outlook: Correo y calendario.
+
+Security & Compliance
+Defender: Protección contra malware y amenazas.
+
+Sentinel: SIEM para monitoreo y respuesta de seguridad.
+
+GDPR (Reglamento General de Protección de Datos): Normativa europea de privacidad.
+
+ISO Compliance (Cumplimiento ISO): Estándares internacionales de seguridad y procesos.
+
+Automation
+PowerShell: Lenguaje de scripting para Windows y M365.
+
+Script: Conjunto de comandos automatizados.
+
+Template (Plantilla): Configuración estándar reutilizable.
+
+CSI (Continuous Service Improvement / Mejora continua): Optimización de procesos.
