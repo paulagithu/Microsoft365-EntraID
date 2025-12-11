@@ -47,7 +47,14 @@ Al iniciar sesión con el usuario de prueba en portal.office.com, aparece el men
 - Revisar roles y permisos.  
 - Resetear contraseñas.  
 
-📸 **Evidencias:** *(capturas de pantalla)*  
+📸 **Evidencias:
+<img width="706" height="553" alt="image" src="https://github.com/user-attachments/assets/a0eaceab-4a08-44b5-8ac4-efff0e2224c6" />
+<img width="948" height="554" alt="image" src="https://github.com/user-attachments/assets/a5b3151c-20b5-4f28-9a99-63eabff9a811" />
+<img width="288" height="184" alt="image" src="https://github.com/user-attachments/assets/a278d5f5-cee4-4378-9e8e-beb629d9a78b" />
+<img width="286" height="256" alt="image" src="https://github.com/user-attachments/assets/6a3cd6d5-6293-48e6-9a00-176ead17f05a" />
+<img width="469" height="577" alt="image" src="https://github.com/user-attachments/assets/4ebbccb2-36b3-47d5-8264-b6b945bfd892" />
+
+
 📚 **Aprendizajes:** Diferencia entre roles y grupos, ciclo de vida de usuarios.
 
 ---
