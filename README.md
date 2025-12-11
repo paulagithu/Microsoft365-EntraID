@@ -67,7 +67,43 @@ Al iniciar sesión con el usuario de prueba en portal.office.com, aparece el men
 - Simular problemas comunes (login, compartir archivos).  
 - Documentar resolución en un “artículo de conocimiento”.  
 
-📸 **Evidencias:** *(capturas de pantalla)*  
+📸 **Evidencias:
+<img width="592" height="547" alt="image" src="https://github.com/user-attachments/assets/08c8bc8a-2e78-44f5-8c53-d5670b13f0e2" />
+<img width="570" height="523" alt="image" src="https://github.com/user-attachments/assets/a7f69541-20c6-40da-9d32-3ef56659758b" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/a870a257-a0d5-46f6-97e2-120e95703606" />
+<img width="1039" height="273" alt="image" src="https://github.com/user-attachments/assets/c72dff54-2fe1-4d45-8de4-690287cdb22c" />
+
+
+- En Teams gratuito no aparece la opción de “crear equipo”.
+- Usé la función **Comunidades** para simular un equipo de colaboración.
+- Creé la comunidad `Lab-Soporte`, invité usuarios y compartí mensajes/archivos.
+
+Ejemplo 1 – OneDrive
+Problema simulado:
+“No puedo abrir un archivo compartido en OneDrive.”
+Resolución documentada:
+Verificar conexión a internet.
+Revisar permisos del archivo (¿tiene acceso el usuario?).
+Probar abrir desde otro navegador.
+Si persiste, cerrar sesión y volver a iniciar.
+
+Ejemplo 2 – Teams
+Problema simulado:
+“No me llegan las notificaciones en Teams.”
+Resolución documentada:
+Revisar configuración de notificaciones en Teams.
+Verificar que la app esté actualizada.
+Probar en versión web para descartar problema local.
+
+Ejemplo 3 – Outlook
+Problema simulado:
+“No puedo enviar correos desde Outlook.”
+Resolución documentada:
+Revisar conexión a internet.
+Confirmar que la cuenta esté activa.
+Probar enviar un correo de prueba a sí mismo.
+Si falla, limpiar caché del navegador o app.
+
 📚 **Aprendizajes:** Soporte básico de apps, importancia de KBs.
 
 ---
