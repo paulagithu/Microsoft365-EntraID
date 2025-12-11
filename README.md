@@ -185,6 +185,7 @@ Template (Plantilla): Configuración estándar reutilizable.
 
 CSI (Continuous Service Improvement / Mejora continua): Optimización de procesos.
 
+
 # 📖 Knowledge Base Article – Resetear contraseña en Outlook
 
 ## 🎯 Objetivo
@@ -253,3 +254,40 @@ Guiar al usuario en la instalación de Microsoft Teams en un equipo con Windows 
 
 ## ✅ Conclusión
 Este procedimiento permite instalar Microsoft Teams en Windows de forma rápida y segura, asegurando que el usuario pueda acceder a reuniones y colaboración en línea.
+
+
+# 📖 Knowledge Base Article – Error al abrir archivo en OneDrive
+
+## 🎯 Objetivo
+Guiar al usuario en la resolución de problemas cuando no puede abrir un archivo compartido en OneDrive.
+
+---
+
+## 🛠️ Pasos de resolución
+
+1. **Verificar conexión a internet**  
+   - Asegúrate de que el dispositivo esté conectado y con buena señal.  
+   - Prueba abrir otra página web para confirmar.
+
+2. **Revisar permisos del archivo**  
+   - Confirma que el archivo fue compartido con tu cuenta.  
+   - Si aparece “Acceso denegado”, solicita al propietario que te otorgue permisos.
+
+3. **Probar en otro navegador o dispositivo**  
+   - Intenta abrir el archivo en Edge, Chrome o Firefox.  
+   - Si funciona en otro navegador, limpia caché y cookies del navegador original.
+
+4. **Cerrar sesión y volver a iniciar**  
+   - Cierra sesión en OneDrive.  
+   - Inicia sesión nuevamente con tu cuenta Microsoft.  
+   - Vuelve a intentar abrir el archivo.
+
+---
+
+## 📸 Evidencias
+*capturas de pantalla del error inicial y de la solución aplicada).*
+
+---
+
+## 📚 Notas
+- Si el archivo está dañado, pide al propietario que
