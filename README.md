@@ -16,7 +16,8 @@ Aplicar principios de Zero Trust en Entra ID.
 - Prueba de acceso desde **dispositivo no confiable**.
 
 ### 📸 Evidencias
-*(Agregar capturas aquí)*
+<img width="385" height="448" alt="image" src="https://github.com/user-attachments/assets/6410c104-bed6-4e66-8e69-e52349ad264d" />
+
 
 ### 📚 Aprendizajes
 - Importancia de MFA en Zero Trust.
